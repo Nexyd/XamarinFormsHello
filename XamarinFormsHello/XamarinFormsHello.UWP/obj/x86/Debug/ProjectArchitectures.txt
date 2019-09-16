@@ -1,0 +1,1 @@
+F:\Daniel\XamarinFormsHello\XamarinFormsHello\XamarinFormsHello.UWP\XamarinFormsHello.UWP.csproj;x86
