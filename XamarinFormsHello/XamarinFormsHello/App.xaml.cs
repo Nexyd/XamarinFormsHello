@@ -1,6 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsHello.ViewModels.Base;
 using XamarinFormsHello.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -8,11 +8,12 @@ namespace XamarinFormsHello
 {
     public partial class App : Application
     {
-        //private static ViewModelLocator _locator;
+        private static ViewModelLocator _locator;
 
-        //public static ViewModelLocator Locator {
-        //    get { return _locator ?? new ViewModelLocator(); }
-        //}
+        public static ViewModelLocator Locator
+        {
+            get { return _locator ?? new ViewModelLocator(); }
+        }
 
         public App()
         {
